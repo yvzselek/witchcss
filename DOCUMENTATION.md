@@ -1,45 +1,43 @@
 # [witchCSS](http://www.witchcss.com) - Documentation
 ## Introduction
-**witchCSS** is a utility library for CSS. It is built for easier user interface development. It contains a total of **192** classes and also their **responsive variations** for six media breakpoints to make responsive user interface development easier too. In this documentation, you can find anything about **witchCSS** and learn how to use it.
-
-> This documentation context is released under 
+**witchCSS** is a utility library for **CSS**. It is built for easier user interface development. It contains a total of **192** classes and also their **responsive variations** for six media breakpoints to make responsive user interface development easier too. In this documentation, you can find anything about **witchCSS** and learn how to use it.
 
 ## Table of Contents
-- [Overview]()
-    - [Install]()
-    - [Requirements]()
-    - [Responsiveness]()
-- [Classes]()
-    - [Direction]()
-    - [Wrap]()
-    - [Width]()
-    - [Align]()
-    - [Text]()
-    - [Color]()
-    - [Spacing]()
-    - [Cursor]()
+- [Overview](#overview)
+    - [Install](#install)
+    - [Requirements](#requirements)
+    - [Responsiveness](#responsiveness)
+- [Classes](#classes)
+    - [Direction](#direction)
+    - [Wrap](#wrap)
+    - [Width](#width)
+    - [Align](#align)
+    - [Text](#text)
+    - [Color](#color)
+    - [Spacing](#spacing)
+    - [Cursor](#cursor)
 
 ## Overview
 Learn how to install and use **witchCSS** in your projects.
 
 ## Install
-Select a method below and get started with **witchCSS**.
-### CDN (jsDelivr)
+Select a method below and get started with **witchCSS**!
+
+### CDN ([jsDelivr](https://www.jsdelivr.com/package/npm/witchcss))
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/witchcss@2">
 ```
 Copy and paste the `link` tag above into the `head` tag in your HTML file. 
 
-### npm
+### [npm](https://www.npmjs.com/package/witchcss)
 ```
 npm install witchcss
 ```
 
-### Yarn
+### [Yarn](https://www.yarnpkg.com/package/witchcss)
 ```
 yarn add witchcss
 ```
-...or you can [download it]().
 
 ## Requirements
 There are some stuff you should set before using **witchCSS**.
@@ -57,7 +55,7 @@ To use all features in **witchCSS**, you should add the line below into the `hea
 ```
 
 ### Starter HTML template
-You can easily cop and paste the HTML structure below and start developing.
+You can easily copy and paste the **HTML5** structure below and start developing.
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -79,20 +77,20 @@ You can easily cop and paste the HTML structure below and start developing.
 
 ### Breakpoints
 
-| Name | Screen Width |
+| Name | Min-Width |
 | - | - |
-| `xs` (default) | `1px` to `479px` |
-| `s` | `480px` to `767px` |
-| `m` | `768px` to `1023px` |
-| `l` | `1024px` to `1279px` |
-| `xl` | `1280px` to `1439px` |
-| `2l` | `1440px` and above ` |
+| `xs` (default) | `1px` |
+| `s` | `480px` |
+| `m` | `768px` |
+| `l` | `1024px` |
+| `xl` | `1280px` |
+| `2l` | `1440px` |
 
 ## Classes
 **witchCSS** contains descriptive and short named classes. It is easy to understand what a class does when you read its name.
 
 ### Responsive Classes
-To use a class with a media breakpoint, simply add `-$bp` to the end of class name. You can see all media breakpoint names [here]().
+To use a class with a media breakpoint, simply add `-$bp` to the end of class name. You can see all media breakpoint names [here](#breakpoints).
 
 ## Direction
 With direction classes you can make an element's `display` property `flex` and set its direction. There are four direction classes.
@@ -179,3 +177,57 @@ With text-transform classes you can set a text's `text-transform` property. Ther
 `.tt-normal` `.lowercase` `.uppercase` `.capitalize`
 
 ## Color
+With color classes you can set an element's `color` property. There are 10 color classes.
+
+`.primary` `.secondary` `.red` `.orange` `.yellow` `.green` `.blue` `.violet` `.white` `.light` `.dark` `.black`
+
+### background-color
+With background-color classes you can set an element's `background-color` property. There are 10 background-color classes.
+
+`.primary-bg` `.secondary-bg` `.red-bg` `.orange-bg` `.yellow-bg` `.green-bg` `.blue-bg` `.violet-bg` `.white-bg` `.light-bg` `.dark-bg` `.black-bg`
+
+## Spacing
+With spacing classes you can set an element's `padding` and `margin` properties.
+
+### padding
+Padding classes starts with `p`, then continues with a side (optional). At last ends with a number.
+
+| Name | Value | Computed (Default) |
+| - | - | - |
+| `p-0` | `0rem` | `0px` |
+| `p-1` | `0.5rem` | `5px` |
+| `p-2` | `1rem` | `10px` |
+| `p-3` | `1.5rem` | `15px` |
+| `p-4` | `2rem` | `20px` |
+| `p-5` | `3rem` | `30px` |
+| `p-6` | `5rem` | `50px` |
+
+### margin
+Margin classes starts with `m`, then continues with a side (optional). At last ends with a number.
+
+| Name | Value | Computed (Default) |
+| - | - | - |
+| `m-0` | `0rem` | `0px` |
+| `m-1` | `0.5rem` | `5px` |
+| `m-2` | `1rem` | `10px` |
+| `m-3` | `1.5rem` | `15px` |
+| `m-4` | `2rem` | `20px` |
+| `m-5` | `3rem` | `30px` |
+| `m-6` | `5rem` | `50px` |
+
+### Sides
+There are six sides for spacing classes.
+
+| Name | Value | Example |
+| - | - | - |
+| `l` | `left` | `pl-3` |
+| `r` | `right` | `mr-5` |
+| `t` | `top` | `mt-0` |
+| `b` | `bottom` | `pb-4` |
+| `x` | both `left` and `right` | `px-3` |
+| `y` | both `top` and `bottom` | `my-6` |
+
+## Cursor
+With cursor classes you can set an element's `cursor` property. There are four cursor classes.
+
+`.c-default` `.pointer` `.not-allowed` `.wait`

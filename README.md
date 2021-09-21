@@ -7,25 +7,25 @@
 [![npm](https://img.shields.io/npm/dm/witchcss?color=ff3855&label=npm&style=flat-square)](https://www.npmjs.com/package/witchcss)
 [![discord](https://img.shields.io/discord/636213115016708096?color=ff3855&label=discord&style=flat-square)](https://www.discord.gg/8HKTUbn)
 
-## Usage
+## Install
 Select a method below and get started with **witchCSS**!
-### CDN (jsDelivr)
+### CDN ([jsDelivr](https://www.jsdelivr.com/package/npm/witchcss))
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/witchcss@2">
 ```
 
-### npm
+### [npm](https://www.npmjs.com/package/witchcss)
 ```
 npm install witchcss
 ```
 
-### Yarn
+### [Yarn](https://www.yarnpkg.com/package/witchcss)
 ```
 yarn add witchcss
 ```
 
-## Learn
-You can learn anything about **witchCSS** in its [official website](http://www.witchcss.com).
+## Documentation
+Learn how to use **witchCSS** in its [documentation](DOCUMENTATION.md).
 
 ## Support
 You can support and make **witchCSS** better by donating to its creator.
@@ -44,4 +44,4 @@ Yavuz SELEK
 - [@yvzselek on Instagram](https://www.instagram.com/yvzselek)
 
 ## Copyright and License
-Copyright 2021 Yavuz SELEK. Code released under [the MIT license](https://www.github.com/yvzselek/witchcss/blob/main/LICENSE.txt).
+Copyright 2021 Yavuz SELEK. Code released under [the MIT license](LICENSE.txt).
