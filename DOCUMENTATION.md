@@ -1,6 +1,6 @@
 # [witchCSS](http://www.witchcss.com) - Documentation
 ## Introduction
-**witchCSS** is a utility library for **CSS**. It is built for easier user interface development. It contains a total of **192** classes and also their **responsive variations** for six media breakpoints to make responsive user interface development easier too. In this documentation, you can find anything about **witchCSS** and learn how to use it.
+**witchCSS** is a utility library for **CSS**. It is built for easier user interface development. It contains a total of **194** classes and also their **responsive variations** for six media breakpoints to make responsive user interface development easier too. In this documentation, you can find anything about **witchCSS** and learn how to use it.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -8,6 +8,7 @@
     - [Requirements](#requirements)
     - [Responsiveness](#responsiveness)
 - [Classes](#classes)
+    - [Display](#display)
     - [Direction](#direction)
     - [Wrap](#wrap)
     - [Width](#width)
@@ -92,6 +93,11 @@ You can easily copy and paste the **HTML5** structure below and start developing
 ### Responsive Classes
 To use a class with a media breakpoint, simply add `-$bp` to the end of class name. You can see all media breakpoint names [here](#breakpoints).
 
+## Display
+With display classes you can set an element's `display` property. There are six display classes.
+
+`.d-none` `.inline` `.block` `.inline-block` `.flex` `.grid`
+
 ## Direction
 With direction classes you can make an element's `display` property `flex` and set its direction. There are four direction classes.
 
@@ -123,7 +129,7 @@ In **witchCSS** screen is divided into **12** equal pieces. With width classes y
 | `w-12` | `100%` |
 
 ## Align
-With align classes you can align elements that are flex children. There are three types of align classes.
+With align classes you can align elements that are flex children. There are four types of align classes.
 
 ### justify-content
 To set an element's `justify-content` property, use `aj` classes. There are six `aj` classes.
@@ -134,6 +140,11 @@ To set an element's `justify-content` property, use `aj` classes. There are six 
 To set an element's `align-items` property, use `ai` classes. There are five `ai` classes.
 
 `.ai-start` `.ai-end` `.ai-center` `.ai-stretch` `.ai-baseline`
+
+### align-all
+To set an element's both `justify-content` and `align-items` property, use `a` classes. There are three `a` classes.
+
+`.a-start` `.a-end` `.a-center`
 
 ### align-content
 To set an element's `align-content` property, use `ac` classes. There are six `ac` classes.
