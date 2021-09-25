@@ -27,7 +27,7 @@ yarn add witchcss
 ## Documentation
 Learn how to use **witchCSS** in its [documentation](DOCUMENTATION.md).
 
-## Support
+## Funding
 You can support and make **witchCSS** better by donating to its creator.
 - [Become a Patron](https://patreon.com/yvzselek)
 
@@ -38,10 +38,10 @@ Let's put a spell on every user interface together!
 - [witchCSS Official Discord Server](https://discord.gg/TGXRK6699H)
 
 ## Creator
-Yavuz SELEK
+Yavuz Selek
 - [yvzselek.com](http://www.yvzselek.com)
 - [@yvzselek on Twitter](https://twitter.com/yvzselek)
 - [@yvzselek on Instagram](https://instagram.com/yvzselek)
 
 ## Copyright and License
-Copyright 2021 Yavuz SELEK. Code released under [the MIT license](LICENSE.txt).
+Copyright 2021 Yavuz Selek. Code released under [the MIT license](LICENSE.txt).
