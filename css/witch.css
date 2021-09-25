@@ -1,4 +1,4 @@
-/* witchCSS v2.0.2 (witchcss.com) | Yavuz Selek (yvzselek.com) | MIT License | (github.com/yvzselek/witchcss) */
+/* witchCSS v2 (witchcss.com) | Yavuz Selek (yvzselek.com) | MIT License | (github.com/yvzselek/witchcss) */
 /* GENERAL */
 * {
     padding: 0px;
@@ -320,6 +320,7 @@ mark { background-color: #FEFE33; }
 .ac-around-s { align-content: space-around; }
 
 /* WIDTH */
+.w-s { width: 480px; }
 .w-1-s { width: 8.333%; }
 .w-2-s { width: 16.666%; }
 .w-3-s { width: 25%; }
@@ -570,6 +571,7 @@ mark { background-color: #FEFE33; }
 .ac-around-m { align-content: space-around; }
 
 /* WIDTH */
+.w-m { width: 768px; }
 .w-1-m { width: 8.333%; }
 .w-2-m { width: 16.666%; }
 .w-3-m { width: 25%; }
@@ -820,6 +822,7 @@ mark { background-color: #FEFE33; }
 .ac-around-l { align-content: space-around; }
 
 /* WIDTH */
+.w-l { width: 1024px; }
 .w-1-l { width: 8.333%; }
 .w-2-l { width: 16.666%; }
 .w-3-l { width: 25%; }
@@ -1070,6 +1073,7 @@ mark { background-color: #FEFE33; }
 .ac-around-xl { align-content: space-around; }
 
 /* WIDTH */
+.w-xl { width: 1280px; }
 .w-1-xl { width: 8.333%; }
 .w-2-xl { width: 16.666%; }
 .w-3-xl { width: 25%; }
@@ -1320,6 +1324,7 @@ mark { background-color: #FEFE33; }
 .ac-around-2l { align-content: space-around; }
 
 /* WIDTH */
+.w-2l { width: 1440px; }
 .w-1-2l { width: 8.333%; }
 .w-2-2l { width: 16.666%; }
 .w-3-2l { width: 25%; }

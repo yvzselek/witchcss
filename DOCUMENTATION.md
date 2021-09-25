@@ -1,6 +1,6 @@
 # [witchCSS](http://www.witchcss.com) - Documentation
 ## Introduction
-**witchCSS** is a utility library for **CSS**. It is built for easier user interface development. It contains a total of **194** classes and also their **responsive variations** for six media breakpoints to make responsive user interface development easier too. In this documentation, you can find anything about **witchCSS** and learn how to use it.
+**witchCSS** is a utility library for **CSS**. It is built for easier user interface development. It contains a total of **199** classes and also their **responsive variations** for six media breakpoints to make responsive user interface development easier too. In this documentation, you can find anything about **witchCSS** and learn how to use it.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -127,6 +127,17 @@ In **witchCSS** screen is divided into **12** equal pieces. With width classes y
 | `w-10` | `83.3%` |
 | `w-11` | `91.6%` |
 | `w-12` | `100%` |
+
+### breakpoint-width
+To set an element's `width` property up as a breakpoint's width, use `breakpoint-width` classes. You can see all media breakpoint widths [here](#breakpoints). There are five breakpoint-width classes.
+
+| Name | Width |
+| - | - |
+| `w-s` | `480px` |
+| `w-m` | `768px` |
+| `w-l` | `1024px` |
+| `w-xl` | `1280px` |
+| `w-2l` | `1440px` |
 
 ## Align
 With align classes you can align elements that are flex children. There are four types of align classes.
