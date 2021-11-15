@@ -1,6 +1,8 @@
+[![logo](./assets/witchcss_banner_dark-bg_small.png)](http://www.witchcss.com)
+
 # [witchCSS](http://www.witchcss.com) - Documentation
 ## Introduction
-**witchCSS** is a utility library for **CSS**. It is built for easier user interface development. It contains a total of **194** classes and also their **responsive variations** for six media breakpoints to make responsive user interface development easier too. In this documentation, you can find anything about **witchCSS** and learn how to use it.
+**witchCSS** is a utility library for **CSS**. It is built for easier user interface development. It contains a total of **223** classes and also their **responsive variations** for six media breakpoints to make responsive user interface development easier too. In this documentation, you can find anything about **witchCSS** and learn how to use it.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -26,7 +28,7 @@ Select a method below and get started with **witchCSS**!
 
 ### CDN ([jsDelivr](https://www.jsdelivr.com/package/npm/witchcss))
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/witchcss@2">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/witchcss@2.1.0">
 ```
 Copy and paste the `link` tag above into the `head` tag in your HTML file. 
 
@@ -65,7 +67,7 @@ You can easily copy and paste the **HTML5** structure below and start developing
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Title</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/witchcss@2">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/witchcss@2.1.0">
 </head>
 <body>
 
@@ -127,6 +129,17 @@ In **witchCSS** screen is divided into **12** equal pieces. With width classes y
 | `w-10` | `83.3%` |
 | `w-11` | `91.6%` |
 | `w-12` | `100%` |
+
+### breakpoint-width
+To set an element's `width` property up as a breakpoint's width, use `breakpoint-width` classes. You can see all media breakpoint widths [here](#breakpoints). There are five breakpoint-width classes.
+
+| Name | Width |
+| - | - |
+| `w-s` | `480px` |
+| `w-m` | `768px` |
+| `w-l` | `1024px` |
+| `w-xl` | `1280px` |
+| `w-2l` | `1440px` |
 
 ## Align
 With align classes you can align elements that are flex children. There are four types of align classes.
@@ -196,6 +209,16 @@ With color classes you can set an element's `color` property. There are 10 color
 With background-color classes you can set an element's `background-color` property. There are 10 background-color classes.
 
 `.primary-bg` `.secondary-bg` `.red-bg` `.orange-bg` `.yellow-bg` `.green-bg` `.blue-bg` `.violet-bg` `.white-bg` `.light-bg` `.dark-bg` `.black-bg`
+
+### border-color
+With border-color classes you can set an element's `border-color` property. There are 10 border-color classes.
+
+`.primary-border` `.secondary-border` `.red-border` `.orange-border` `.yellow-border` `.green-border` `.blue-border` `.violet-border` `.white-border` `.light-border` `.dark-border` `.black-border`
+
+### caret-color
+With caret-color classes you can set an element's `caret-color` property. There are 10 caret-color classes.
+
+`.primary-caret` `.secondary-caret` `.red-caret` `.orange-caret` `.yellow-caret` `.green-caret` `.blue-caret` `.violet-caret` `.white-caret` `.light-caret` `.dark-caret` `.black-caret`
 
 ## Spacing
 With spacing classes you can set an element's `padding` and `margin` properties.
