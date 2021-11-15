@@ -3,7 +3,7 @@
 # [witchCSS](http://www.witchcss.com) - Utility Library for CSS
 **220+** classes and their **responsive variations** for easier user interface development.
 
-[![version](https://img.shields.io/static/v1?label=version&message=2.0.2&color=ff3855&style=flat-square)](https://github.com/yvzselek/witchcss/tags)
+[![version](https://img.shields.io/static/v1?label=version&message=2.1.0&color=ff3855&style=flat-square)](https://github.com/yvzselek/witchcss/tags)
 [![stars](https://img.shields.io/github/stars/yvzselek/witchcss?color=ff3855&label=stars&style=flat-square)](https://github.com/yvzselek/witchcss/stargazers)
 [![jsdelivr](https://img.shields.io/jsdelivr/npm/hm/witchcss?color=ff3855&style=flat-square)](https://jsdelivr.com/package/npm/witchcss)
 [![npm](https://img.shields.io/npm/dm/witchcss?color=ff3855&label=npm&style=flat-square)](https://npmjs.com/package/witchcss)
