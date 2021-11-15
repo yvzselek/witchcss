@@ -1,7 +1,7 @@
-![logo](https://repository-images.githubusercontent.com/303386677/88c8347b-8b2d-4c29-b365-e759bd2841b1)
+[![logo](./assets/witchcss_banner_dark-bg_small.png)](http://www.witchcss.com)
 
 # [witchCSS](http://www.witchcss.com) - Utility Library for CSS
-**190+** classes and their **responsive variations** for easier user interface development.
+**220+** classes and their **responsive variations** for easier user interface development.
 
 [![version](https://img.shields.io/static/v1?label=version&message=2.0.2&color=ff3855&style=flat-square)](https://github.com/yvzselek/witchcss/tags)
 [![stars](https://img.shields.io/github/stars/yvzselek/witchcss?color=ff3855&label=stars&style=flat-square)](https://github.com/yvzselek/witchcss/stargazers)
@@ -13,7 +13,7 @@
 Select a method below and get started with **witchCSS**!
 ### CDN ([jsDelivr](https://jsdelivr.com/package/npm/witchcss))
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/witchcss@2">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/witchcss@2.1.0">
 ```
 
 ### [npm](https://npmjs.com/package/witchcss)
@@ -27,7 +27,7 @@ yarn add witchcss
 ```
 
 ## Documentation
-Learn how to use **witchCSS** in its [documentation](DOCUMENTATION.md).
+Learn how to use **witchCSS** in its [documentation](DOCUMENTATION.md) on Github.
 
 ## Funding
 You can support and make **witchCSS** better by donating to its creator.
