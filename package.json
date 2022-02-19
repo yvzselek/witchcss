@@ -1,24 +1,19 @@
 {
   "name": "witchcss",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Utility Library for CSS",
   "keywords": [
     "css", "utility", "ui", "library", "flexbox", "design", "interface", "html", "style"
   ],
-  "homepage": "http://witchcss.com",
+  "homepage": "https://witchcss.yvzselek.com",
   "bugs": "https://github.com/yvzselek/witchcss/issues",
   "license": "MIT",
   "author": { 
     "name" : "Yavuz Selek",
     "email" : "yvzselek@gmail.com",
-    "url" : "http://www.yvzselek.com"
+    "url" : "https://yvzselek.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url" : "https://patreon.com/yvzselek"
-    }
-  ],
+  "funding": "https://witchcss.yvzselek.com/donate",
   "main": "./css/witch.min.css",
   "repository": {
     "type": "git",
